@@ -7,3 +7,5 @@ To setup the environment required to run all these simulation/analysis notebooks
 ```
 conda create -n girsanov-torch -c conda-forge -c omnia -c numba -c nvidia -c pytorch pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=11.8 openmm-torch openmm mdtraj netcdf4 mpiplus pymbar numba matplotlib deeptime openmm-plumed numpy scipy scikit-learn python=3.9 mdanalysis pandas
 ```
+
+Also remember to install a customized version of `openmmtools` for computing the path reweighting factor $M(\omega)$ on-the-fly [here](https://github.com/bkellerlab/reweightingtools?tab=readme-ov-file).
