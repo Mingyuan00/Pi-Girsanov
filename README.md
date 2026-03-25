@@ -1,7 +1,7 @@
 # Pi-Girsanov
 Authors: Mingyuan Zhang, Yong Wang, Bettina G. Keller, Hao Wu
 
-This is the official repository for the paper: "π-Girsanov: A Generalized Method to Construct Markov State Models from Non-Equilibrium and Multiensemble Biased Simulations". This paper is currently under review.
+This is the official repository for the paper: "π-Girsanov: A Generalized Method to Construct Markov State Models from Non-Equilibrium and Multiensemble Biased Simulations". This paper is currently under review. Preprint is available at: https://arxiv.org/abs/2603.21890.
 
 To setup the environment required to run all these simulation/analysis notebooks used in this study, please run:
 ```
